@@ -30,7 +30,7 @@ def PolinomioTaylor(punto, terminos, redondeo):
     # Forzar a 2 decimales de preferencia | Invocarlo como PolinomioTaylor(x0, k, redondeo=2)
 
     x = sym.Symbol('x')
-    fx = sym.cos(x)     # Aquí la cambian f(x) a su necesidad
+    fx = sym.cos(x)     # Aquí le cambian f(x) a su necesidad
     x0 = punto
     grado = terminos
     k = 0
